@@ -1,5 +1,5 @@
 {% set name = "libcflib" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz
-  sha256: 7df9fc8ba44c348103352e06f5ac48f79a45265ae876d35ab6230d273d20e4ad
+  sha256: a6c709d33115fd0ca0a7c43a48c17f96d00ea7f1a3f18b4de679dadc71606c3f
 
 build:
   noarch: python
